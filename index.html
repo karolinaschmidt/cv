@@ -3,91 +3,58 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Karolina Schmidt">
-  <title>Karolina's Personal Site</title>
+  <title>Karolina Schmidt</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td><img src="images/karolina1.png" alt="Karolina Schmidt profile picture" height="250" width="250"></td>
-      <td>
-        <h1>Karolína Schmidt</h1>
-        <p>
-          <em>A pharmacist turned
-            <strong>programmer</strong>.</em>
-        </p>
-        <p>
-          I'm a pharmacist by training, currently on parental leave. In my spare time, I'm learning programming and web development, with encouragement of my husband (who is, unsurprisingly, also a programmer).
-        </p>
-        <p>
-          *Currently enrolled in The Complete 2022 Web Development Bootcamp at UDEMY.*
-        </p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li><a href="https://www.englishcollege.cz/">The English College in Prague</a> (graduated in 2010)</li>
-    <li>
-      <a href="https://www.faf.cuni.cz/?lang=en-gb">Charles University in Prague, Pharmaceutical Faculty</a> (graduated in 2015,
-      MSc. in Pharmacy)
-    </li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Oct 2018 - Present</td>
-        <td>Safety Data Management Specialist at Pfizer</td>
-      </tr>
-      <tr>
-        <td>Oct 2017 - Sep 2018</td>
-        <td>Regulatory Affairs Specialist at Linet spol. s r.o.</td>
-      </tr>
-      <tr>
-        <td>Nov 2015 - Sep 2017</td>
-        <td>Pharmaceutical Assessor of clinical trial documentation at State Institute for Drug Control</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>Critical Thinking</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Teamwork</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Time Management</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Organizational Skills</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-      <tr>
-      <td>HTML(5)</td>
-      <td>⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <br>
-  <a href="contact-me.html">Contact Me</a>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Karolína.</h1>
+    <h2>a <span class="pro">pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
 
+  <div class="middle-container">
+    <div class="profile">
+      <img class="karolina" src="images/karolina1.png" alt="Karolína-Schmidt-photo">
+      <h2>Hello.</h2>
+      <p class="intro">I am a pharmacist by training, currently on parental leave. In my spare time, I study programming and web development.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/coding1.png" alt="Colorful-keyboard-photo">
+        <h3>Design & Development</h3>
+        <p>I started learning to code when I was on parental leave with my two lovely children. I experienced a burnout in my previous profession as a pharmacist and I wanted to reinvent myself. My husband, who is also a programmer, gifted me 'The
+          Complete 2022 Web Development Bootcamp' course at UDEMY and the rest is history...</p>
+      </div>
+      <div class="skill-row">
+        <img class="bake-img" src="images/baking1.png" alt="Scones-baking-photo">
+        <h3>Cooking & Baking</h3>
+        <p>Undeniably, my best skill is cooking and baking. I love trying new recipes and as well as perfecting our staple dishes. I am also an expert on feeding two hungry children. </p>
+      </div>
+    </div>
+    <div class="clear-both"></div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love programming and cooking as much as I do.</h3>
+      <p class="contact-message">Let's talk and I can share with you a recipe for the delicious savory scones that you can see in the picture above!</p>
+      <a class="btn" href="mailto:karolina.valikova@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/karol%C3%ADna-s-8128b153/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/karolinaschmidt">GitHub</a>
+    <p class="copyright">©2022 Karolína Schmidt.</p>
+  </div>
 </body>
 
 </html>
